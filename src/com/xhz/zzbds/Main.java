@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args) {
 
-        String str = "Hello 200 World 100";
+        String str = "DataType 200 World 100";
         // Pattern p=Pattern.compile(".{2}");
         //匹配一个数字
         //   \\d==[0-9]

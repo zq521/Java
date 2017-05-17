@@ -16,13 +16,13 @@ import java.util.Map;
 
 /**
  * Created by zhaoqiang on 2017/5/16.
+ * 解析XML并利用反射实现该方法
  */
 public class Main {
 
     private static NamedNodeMap attributes;
     private static String classNameString;
     private static String method;
-
 
 
     public static void main(String[] args) {
@@ -65,14 +65,14 @@ public class Main {
                         //根据名称获取该类的实例
                         Object instance = scope.get(key);
                         //读取方法名称
-                         method = attributes.getNamedItem("method").getNodeValue();
+                        method = attributes.getNamedItem("method").getNodeValue();
                         //根据方法名称获取该方法的定义
                         Method method1 = instance.getClass().getMethod(method);
                         //执行该方法
                         method1.invoke(instance);
                         break;
                 }
-               // System.out.println(node);
+                // System.out.println(node);
             } while ((node = node.getNextSibling()) != null);
 
         } catch (IllegalAccessException e) {
@@ -83,11 +83,10 @@ public class Main {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
             e.printStackTrace();
-             throw new RuntimeException(String.format("Method %s not found ",method));
-
+            throw new RuntimeException(String.format("Method %s not found ", method));
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
-            throw new RuntimeException(String.format("Class %s not found",classNameString));
+            throw new RuntimeException(String.format("Class %s not found", classNameString));
         } catch (ParserConfigurationException e) {
             e.printStackTrace();
         } catch (NoSuchMethodException e) {
@@ -96,9 +95,9 @@ public class Main {
             e.printStackTrace();
         }
 
-        }
-
     }
+
+}
 
 
 

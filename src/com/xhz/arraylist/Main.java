@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         DynamicArray<String> arr=new DynamicArray<>(2);
-        arr.add("Hello");
+        arr.add("DataType");
         arr.add("World");
         arr.add("XXX");
         arr.add("HHHH");

@@ -1,10 +1,11 @@
-package collection;
+package com.xhz.collection;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * Created by zhaoqiang on 2017/5/12.
+ * 集合遍历
  */
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +13,7 @@ public class Main {
         map.put("name","zhang");
         map.put("age","10");
 //        System.out.println(map.get("getname"));
+        // 一、foreach遍历
         for (String key:map.keySet()
              ) {
             System.out.println(String.format("%s=%s",key,map.get(key)));
@@ -29,7 +31,7 @@ public class Main {
 //            System.out.println(str);
 //        }
 
-//        //迭代器
+//        二、迭代器遍历
 //        ListIterator<String> iterator = list.listIterator();
 //        while (iterator.hasNext()) {
 //            System.out.println(iterator.next());

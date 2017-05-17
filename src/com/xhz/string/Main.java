@@ -6,15 +6,15 @@ package com.xhz.string;
 public class Main {
     public static void main(String[] args) {
 
-//        String str = "Hello World";
+//        String str = "DataType World";
 //
-//        String str1 = new String("Hello World");
+//        String str1 = new String("DataType World");
 //
-//        String str2 = "Hello World";
+//        String str2 = "DataType World";
 //
 //        System.out.println(str == str1);
 //
-//        String s = String.format("Hello %d,%f,%s,%c,%x,%o",100,3.14f,"World",'A',11,8);
+//        String s = String.format("DataType %d,%f,%s,%c,%x,%o",100,3.14f,"World",'A',11,8);
 //
 //        System.out.println(s);
 //
@@ -26,7 +26,7 @@ public class Main {
         //   String S=number+" ";
 
         // 反转Reverse String by using array
-//        String str = "Hello World";
+//        String str = "DataType World";
 //        String[] strArr = str.split("");
 //        String [] reversedArray=new String[strArr.length];
 //        for (int i = strArr.length-1; i >=0 ; i--) {
@@ -42,7 +42,7 @@ public class Main {
 
 
         //Reverse string by charAt
-//        String str="Hello World";
+//        String str="DataType World";
 //        StringBuilder sb=new StringBuilder();
 //        for (int i = str.length()-1; i >=0 ; i--) {
 //            sb.append(str.charAt(i));
@@ -57,7 +57,7 @@ public class Main {
 //        String s=str.substring(startIndex,endIndex);
 //        System.out.println(s);
         //字符串替换
-        String str="Hello World";
+        String str="DataType World";
         str= str.replace("o","d");
         // str= str.replaceFirst("o","d");//替换第一个
         System.out.println(str);

@@ -6,7 +6,7 @@ package com.xhz.jxxml;
 public class Hello {
 
     public void sayHello(){
-        System.out.println("Hello World");
+        System.out.println("DataType World");
     }
 
 }

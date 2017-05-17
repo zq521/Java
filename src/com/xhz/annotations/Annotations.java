@@ -6,7 +6,7 @@ import java.time.chrono.MinguoEra;
 
 /**
  * Created by zhaoqiang on 2017/5/16.
- * 注解
+ * JAVA注解
  */
 public class Annotations {
     public static void main(String[] args) {

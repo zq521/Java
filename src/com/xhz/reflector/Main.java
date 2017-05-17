@@ -16,7 +16,7 @@ public class Main {
         };
 
 //        try {
-//            Hello h=Hello.class.newInstance();
+//            DataType h=DataType.class.newInstance();
 //            h.sayHello();
 //
 //        } catch (InstantiationException e) {

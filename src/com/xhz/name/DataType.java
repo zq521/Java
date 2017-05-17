@@ -2,8 +2,9 @@ package com.xhz.name;
 
 /**
  * Created by zhaoqiang on 2017/5/16.
+ * Java基本数据类型
  */
-public class Hello {
+public class DataType {
     static final int STATE_A = 0b0001;
     static final int STATE_B = 0b0010;
     static final int STATE_C = 0b0100;

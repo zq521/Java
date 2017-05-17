@@ -7,7 +7,7 @@ public class Hello {
 
     public void sayHello(String name) {
 
-        System.out.println(String.format("Hello %s", name));
+        System.out.println(String.format("DataType %s", name));
     }
 
 }
