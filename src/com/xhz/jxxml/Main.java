@@ -32,9 +32,9 @@ public class Main {
         Class[] importedClasses = new Class[]{Hello.class};
 
         try {
-//            构造XML文档对象
+             //构造XML文档对象
             Document document = DocumentBuilderFactory.newInstance().newDocumentBuilder().parse("app.xml");
-//           获取根子节点
+            // 获取根子节点
             Node root = document.getFirstChild();
             //获取代码执行部分的第一个子节点
             Node node = root.getFirstChild();
